@@ -1,0 +1,5 @@
+
+
+
+docker build -t nagabhushanamn/minimal-java .
+docker run -t nagabhushanamn/minimal-java
