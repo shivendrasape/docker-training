@@ -266,7 +266,7 @@ The Dockerfile build instructions
 
         e.g
 
-        WORKDIR /var/log 
+        WORKDIR /app 
         
 
 9. The VOLUME instruction

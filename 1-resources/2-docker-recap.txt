@@ -44,7 +44,7 @@ Deep Dive into Docker Containers
 > docker container -a
 > docker container --all
 
-> docker run -d -rm busybox:1.24  sleep 1
+> docker run -d --rm busybox:1.24  sleep 1
 
 > docker container --all
 
@@ -54,6 +54,7 @@ Deep Dive into Docker Containers
 
 > docker run -d busybox:1.24  sleep 100
 > docker inspect <image/container-id>
+
 
 
 Docker Port Mapping and Docker Logs Command
@@ -69,10 +70,16 @@ Docker Port Mapping and Docker Logs Command
 > docker logs <container-id>
 
 
+
+
+
+
+
 Docker Image Layers
 -----------------------------------------
 
 > docker history busybox:1.24
+
 
 
 
@@ -102,7 +109,8 @@ way-1: Build Docker Images by using Docker Commit Command
 /# git
 
 
-way-2: Build Docker Images by Writing Dockerfile
+
+way-2: Build Docker Images by Writing Dockerfile   (  )
 --------------------------------------------
 
 
@@ -117,6 +125,7 @@ way-2: Build Docker Images by Writing Dockerfile
 > docker build -t repository_name/debian .
 
 > docker images
+
 
 
 
@@ -195,8 +204,11 @@ in container,
 
 
 
+Docker Networking
+-------------------
 
-
+Cocker Compose
+------------------
 
 
 
