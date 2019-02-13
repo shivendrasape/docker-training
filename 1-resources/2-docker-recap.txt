@@ -187,6 +187,7 @@ Dockerfile In-depth
 
 
 
+
 Containerize a Simple Hello World Web Application
 -------------------------------------------------
 
@@ -197,20 +198,6 @@ in container,
 
 /# cd /home/admin
 /# ps axu
-
-
-
-
-
-
-
-Docker Networking
--------------------
-
-Cocker Compose
-------------------
-
-
 
 
 

@@ -390,9 +390,6 @@ The .dockerignore file
 *.tmp 
 
 
-
-
-
 Docker image management
 -----------------------
 
