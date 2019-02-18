@@ -1,0 +1,10 @@
+
+
+techonology stack
+-----------------
+
+ lang           : javascript
+ lang-framework : express
+ runtime        : Node.js
+ package-manage : NPM ( Node Package Manager)
+
