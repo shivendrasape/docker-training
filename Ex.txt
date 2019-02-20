@@ -1,4 +1,6 @@
 
+PM-api service
+//----------------
 
 step-1: Setup our sample node application   
 
@@ -6,10 +8,16 @@ step-2: Create the application's image
 
 step-3: Publish image on Docker Store   ( skip this )
 
-step-4: Single Docker host networking
+step-4: Single Docker host networking 
 
-step-5: Multiple Docker hosts networking
+step-5: Multiple Docker hosts networking 
 
 step-6: Deploy on a Docker Swarm
+
+/ oR
+
+STEP-7 : DEPLOY WITH K8S | PORTAINER | OPENSHIFT ,..
+
+
 
 
