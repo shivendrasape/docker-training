@@ -1,14 +1,15 @@
 
 
-Setup our sample node application
+step-1: Setup our sample node application   
 
-Create the application's image
+step-2: Create the application's image
 
-Publish image on Docker Store 
+step-3: Publish image on Docker Store   ( skip this )
 
-Single Docker host networking
+step-4: Single Docker host networking
 
-Multiple Docker hosts networking
+step-5: Multiple Docker hosts networking
 
-Deploy on a Docker Swarm
+step-6: Deploy on a Docker Swarm
+
 
