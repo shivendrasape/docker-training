@@ -17,7 +17,7 @@ Manage data in Docker
 
     $ docker run -d \
     --name devtest \
-    --mount source=myvol2,target=/app \
+    --mount source=my-vol,target=/app \
     nginx:latest
 
     $ docker inspect devtest

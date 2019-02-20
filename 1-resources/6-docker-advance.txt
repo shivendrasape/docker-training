@@ -5,9 +5,10 @@ docker platform
 ----------------------------------------------
 
 
-    - Docker Daemon / server  ==> to  manage things
+    - Docker server / deamon  ==> to  manage things
     - REST API
-    - Docker CLI
+    - Docker ( cli ) ient / any thirt party's GUI tool
+
 
 
 docker -H remote-docker-engine:2375
