@@ -1,6 +1,6 @@
 
 PM-api service
-//----------------
+----------------
 
 step-1: Setup our sample node application   
 
@@ -14,9 +14,27 @@ step-5: Multiple Docker hosts networking
 
 step-6: Deploy on a Docker Swarm
 
-/ oR
+ or
 
 STEP-7 : DEPLOY WITH K8S | PORTAINER | OPENSHIFT ,..
+
+
+
+-------------------------------------
+devops
+-------------------------------------
+
+SCM
+
+        Jenkins
+
+                - CI
+                - CD
+
+            - ansible
+
+            - k8s 
+
 
 
 

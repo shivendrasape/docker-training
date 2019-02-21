@@ -1,0 +1,66 @@
+
+
+
+kubectl config get-contexts
+kubectl config use-context docker-for-desktop
+kubectl get nodes
+docker container ls --format "table {{.ID}}\t{{.Names}}"
+
+
+
+kubectl create -f sample-pod.yaml 
+kubectl get pods
+
+kubectl create -f sample-service.yaml
+curl -4 http://localhost
+
+
+ kubectl delete po/nginx
+ kubectl delete svc/nginx-service
+
+
+docker stack deploy -c docker-compose.yml app
+curl localhost:3000/pet
+kubectl get all
+docker stack rm app
+
+
+---------------------------------------------------------------------------
+
+kubectl create -f pod.yaml
+kubectl get pods
+kubectl describe pod/web-pod
+
+
+
+kubectl create -f volume-claim.yaml
+kubectl get pvc
+
+---------------------------------------------------------------------------
+
+kubectl create -f pod-with-vol.yaml
+kubectl exec -it web-pod -- /bin/sh
+/ # cd /data
+/data # echo "Hello world!" > sample.txt
+/data # exit
+
+
+delete & re-create pod
+
+kubectl delete pod/web-pod
+kubectl create -f pod-with-vol.yaml
+
+---------------------------------------------------------------------------
+
+
+kubectl create -f replicaset.yaml
+kubectl get rs
+
+kubectl get pods
+
+kubectl delete po/rs-web-dkvl9
+kubectl get pods
+
+kubectl describe rs/rs-web
+
+---------------------------------------------------------------------------
